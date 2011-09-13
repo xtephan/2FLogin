@@ -6,4 +6,7 @@ you can find the main programming part in
 src/com/example/FLogin/FLoginActivity.java
 res/layout/main.xml
 
+Files needed for the web interface login can be found on
+www/
+
 * Used for educational and proof-of-concept only *
