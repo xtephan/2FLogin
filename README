@@ -2,4 +2,8 @@ OTP generator using android
 
 Tested only under virtual emulator
 
+you can find the main programming part in 
+src/com/example/FLogin/FLoginActivity.java
+res/layout/main.xml
+
 * Used for educational and proof-of-concept only *
