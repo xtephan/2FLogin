@@ -3,10 +3,21 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    >
-<TextView  
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/hello"
-    />
+    android:weightSum="1">
+    <TextView android:text="@string/hello" android:layout_height="wrap_content" android:layout_width="fill_parent"></TextView>
+    <RelativeLayout android:layout_height="wrap_content" android:id="@+id/relativeLayout3" android:layout_width="match_parent" android:layout_weight="0.07"></RelativeLayout>
+<EditText android:layout_height="wrap_content" android:id="@+id/editText1" android:layout_gravity="center_horizontal" android:layout_width="191dp">
+    <requestFocus></requestFocus>
+</EditText>
+<RelativeLayout android:layout_height="wrap_content" android:id="@+id/relativeLayout2" android:layout_width="match_parent" android:layout_weight="0.06"></RelativeLayout>
+<Button android:layout_gravity="center_horizontal" android:id="@+id/button1" android:text="Generate OTP token" android:layout_height="wrap_content" android:layout_width="wrap_content" android:onClick="faLaba"></Button>
+<RelativeLayout android:layout_height="wrap_content" android:id="@+id/relativeLayout1" android:layout_width="match_parent" android:layout_weight="0.08"></RelativeLayout>
+<TextView android:layout_gravity="center_horizontal" android:text="Your login token is:" android:id="@+id/textView1" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+<FrameLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/frameLayout1" android:layout_weight="0.11">
+    <TextView android:text=""  
+
+    android:textColor="#00FF00"
+    android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:id="@+id/textView3" android:layout_gravity="center_horizontal"></TextView>
+</FrameLayout>
+<TextView android:text="2FLogin - CopyLeft Stefan Fodor @ 2011 - All wrongs reserved" android:textAppearance="?android:attr/textAppearanceSmall" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
 </LinearLayout>
